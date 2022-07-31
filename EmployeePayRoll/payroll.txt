@@ -1,0 +1,1 @@
+[PayInfo{EmployeeID=100, FullName='Kingsley Henshaw', Department='Computer Science', Salary=20000}, PayInfo{EmployeeID=101, FullName='Benzema Karim', Department='Data Science', Salary=45000}, PayInfo{EmployeeID=102, FullName='Hazel Henshaw', Department='Medicine', Salary=50000}, PayInfo{EmployeeID=103, FullName='David Agumwa', Department='Electrical Science', Salary=200000}]
