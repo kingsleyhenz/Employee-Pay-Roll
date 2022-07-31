@@ -1,13 +1,12 @@
 package main;
 import java.*;
-import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
 
 public class PayRollDir {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         try{
             Path empPay = Paths.get("EmployeePayRoll");
            if (Files.exists(empPay)) {
@@ -19,9 +18,6 @@ public class PayRollDir {
         }catch (Exception e){
                 e.printStackTrace();
         }
-
-        Path java = Paths.get("java");
-        Path directories = Files.createDirectories(java);
     }
 
 }
